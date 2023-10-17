@@ -8,7 +8,7 @@ import IconShopping from './assets/icons/IconShopping.vue'
 <template>
   <top />
   <header>
-    <nav class="wrapper mx-auto flex items-center py-5 relative px-4">
+    <nav class="wrapper mx-auto flex items-center py-5 relative px-4 bb">
       <button class="relative group cursor-pointer h-5 w-6 inline md:hidden">
         <span
           class="w-6 h-0.5 rounded bg-black duration-300 left-0 inline-block group-hover:rotate-45 group-hover:top-2 absolute top-0"
@@ -59,3 +59,9 @@ import IconShopping from './assets/icons/IconShopping.vue'
 
   <RouterView />
 </template>
+
+<style lang="css">
+  .bb{
+    box-shadow: 0px -1px 0px 0px #C4CDD5 inset;
+  }
+</style>
