@@ -17,9 +17,7 @@ const menu = ref(false)
           :class="[
             menu ? 'rotate-45 top-2' : 'top-0',
             'w-6 h-0.5 rounded bg-black duration-300 left-0 inline-block absolute'
-          ]"
-          class="group-hover:"
-        ></span>
+          ]"></span>
         <span
           :class="[
             menu ? '-rotate-45 top-2' : '',
